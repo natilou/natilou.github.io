@@ -616,20 +616,31 @@ progress {
   height: auto;
 }
 
+.logo-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .language-icon {
-  width: 10%;
+  width: 9%;
+  margin: 0.5rem;
 }
 
 #python-logo {
-  width: 15%;
+  width: 12%;
+  margin: 0.5rem;
 }
 
 #django-logo {
-  width: 22%;
+  width: 19%;
+  margin: 0.5rem;
 }
 
 #go-logo {
-  width: 12%;
+  width: 9%;
+  margin: 0.5rem;
 }
 
 .figure {
@@ -3902,6 +3913,7 @@ textarea.form-control-lg {
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: center;
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -3949,6 +3961,7 @@ textarea.form-control-lg {
   .navbar-expand-md .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: center;
   }
   .navbar-expand-md .navbar-toggler {
     display: none;
@@ -3996,6 +4009,7 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    justify-content: center;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -7050,6 +7064,7 @@ textarea.form-control-lg {
 
 .d-flex {
   display: flex !important;
+  flex-wrap: wrap;
 }
 
 .d-inline-flex {
@@ -9123,6 +9138,7 @@ textarea.form-control-lg {
   }
   .d-md-flex {
     display: flex !important;
+    justify-content: center;
   }
   .d-md-inline-flex {
     display: inline-flex !important;
@@ -11675,6 +11691,17 @@ html {
   fill: #1e30f3;
 }
 
+
+@media (max-width: 700px) {
+  #navbarSupportedContent{
+    justify-content: center;
+  }
+
+  .navbar > .container {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     height: 60vw;
@@ -11700,6 +11727,7 @@ html {
     left: -4vw;
   }
 }
+
 @media (min-width: 768px) {
   .profile {
     height: 50vw;
@@ -11724,6 +11752,7 @@ html {
     width: 3vw;
     left: -4vw;
   }
+
 }
 @media (min-width: 992px) {
   .profile {
