@@ -11618,6 +11618,12 @@ html {
   font-size: 2rem;
 }
 
+.text-gradient-subtitle {
+  background: -webkit-linear-gradient(315deg, #1761c8 0%, #2596be 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #navbarSupportedContent{
   display: flex;
   justify-content: end;
