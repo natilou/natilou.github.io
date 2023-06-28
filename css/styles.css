@@ -172,6 +172,16 @@ p {
   margin-right: 1rem;
 }
 
+#frontend-projects {
+  color: #1761c8;
+  margin-bottom: 2rem;
+}
+
+.link-projects-fe {
+  text-decoration: none;
+  color:#1761c8
+}
+
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
@@ -254,7 +264,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: #2596be;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11600,6 +11610,8 @@ body,
 html {
   height: 100%;
 }
+
+
 
 .bg-gradient-primary-to-secondary {
   background: #1761c8;
