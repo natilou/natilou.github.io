@@ -11630,6 +11630,10 @@ html {
   font-size: 2rem;
 }
 
+.a-text-gradient svg {
+  margin-bottom: 0.5rem;
+}
+
 .text-gradient-subtitle {
   color: #1c75c4
 }
