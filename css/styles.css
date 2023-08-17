@@ -165,11 +165,15 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 .link-project {
   text-decoration: none;
   margin-right: 1rem;
+}
+
+.link-project-in-card {
+  text-decoration: none;
 }
 
 #frontend-projects {
