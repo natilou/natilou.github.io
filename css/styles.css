@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1761c8;
+  --bs-primary: #025d96;
   --bs-secondary: #e21e80;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1761c8;
+  --bs-link-color: #036aaa;
   --bs-link-hover-color: #4810f2;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
@@ -177,13 +177,13 @@ p {
 }
 
 #frontend-projects {
-  color: #1761c8;
+  color: var(--bs-link-color);
   margin-bottom: 2rem;
 }
 
 .link-projects-fe {
   text-decoration: none;
-  color:#1761c8
+  color: var(--bs-link-color);
 }
 
 
@@ -268,8 +268,9 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #2596be;
+  color: #058fe4;
 }
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -652,9 +653,24 @@ progress {
   margin: 0.5rem;
 }
 
+#fastapi-logo {
+  width: 18%;
+  margin: 0
+}
+
 #go-logo {
   width: 9%;
   margin: 0.5rem;
+}
+
+#db-logo{
+  width: 18%;
+  margin-right: 0;
+}
+
+#azure-logo{
+  width: 18%;
+  margin-left: 1rem;
 }
 
 .figure {
@@ -11618,17 +11634,17 @@ html {
 
 
 .bg-gradient-primary-to-secondary {
-  background: #1761c8;
-  background: linear-gradient(135deg, #1761c8 0%, #2596be 100%);
+  background: #025d96;
+  background: linear-gradient(135deg, #025d96 0%, #0680cd 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1761c8 0%, #2596be 100%);
+  background: -webkit-linear-gradient(315deg, #025d96 0%, #0680cd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .a-text-gradient {
-  background: -webkit-linear-gradient(315deg, #1761c8 0%, #2596be 100%);
+  background: -webkit-linear-gradient(315deg, #025d96 0%, #0680cd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
@@ -11639,7 +11655,7 @@ html {
 }
 
 .text-gradient-subtitle {
-  color: #1c75c4
+  color: #025d96; 
 }
 
 #navbarSupportedContent{
