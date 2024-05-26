@@ -636,41 +636,26 @@ progress {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+
+.tool-container {
+  max-width: min-content;
 }
 
 .language-icon {
-  width: 9%;
-  margin: 0.5rem;
+  height: 85px;
+  margin: 0.7rem;
 }
 
-#python-logo {
-  width: 12%;
-  margin: 0.5rem;
-}
-
-#django-logo {
-  width: 19%;
-  margin: 0.5rem;
-}
-
-#fastapi-logo {
-  width: 18%;
-  margin: 0
-}
-
-#go-logo {
-  width: 9%;
-  margin: 0.5rem;
-}
-
-#db-logo{
-  width: 18%;
-  margin-right: 0;
-}
-
-#azure-logo{
-  width: 18%;
+#azure-icon {
   margin-left: 1rem;
+  margin-right: 0.3rem;
+}
+
+#docker-icon {
+  margin-left: 0;
 }
 
 .figure {
@@ -4231,7 +4216,7 @@ textarea.form-control-lg {
   --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
-  --bs-card-color: ;
+  --bs-card-color: #2e2e2e;
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
@@ -4278,6 +4263,7 @@ textarea.form-control-lg {
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
+
 
 .card-subtitle {
   margin-top: calc(-0.5 * var(--bs-card-title-spacer-y));
@@ -4360,6 +4346,8 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
+
+
 @media (min-width: 576px) {
   .card-group {
     display: flex;
@@ -7106,7 +7094,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .shadow-sm {
@@ -7203,6 +7191,9 @@ textarea.form-control-lg {
 
 .border {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+.border-line {
+  border-style: solid;
 }
 
 .border-0 {
